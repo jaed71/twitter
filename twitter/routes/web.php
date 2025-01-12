@@ -4,7 +4,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TweetController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CommentController;
 
 //dashboard
 
@@ -35,6 +35,9 @@ Route::get('/tweets/{tweet}', [TweetController::class, 'show'])->name('tweet.sho
 Route::get('/tweets/{tweet}/edit', [TweetController::class, 'edit'])->name('tweet.edit');
 
 Route::put('/tweets/{tweet}', [TweetController::class, 'update'])->name('tweet.update');
+
+
+Route::post('/tweets/{tweet}/comments', [CommentController::class, 'store'])->name('tweet.comments.store');
 
 
 

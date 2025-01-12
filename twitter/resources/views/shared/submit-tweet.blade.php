@@ -1,4 +1,4 @@
-<h4> Share yours tweets </h4>
+<h4 style=" font-weight: bold; font-size: 2.25rem;"> Share your tweets </h4>
 <div class="row">
 
     <form action="{{route('tweet.create')}}" method="post">
@@ -12,7 +12,7 @@
  
     </div>
     <div class="">
-        <button type="submit" class="btn btn-dark"> Post </button>
+        <button type="submit" class="btn btn-dark" style="background-color: #1DA1F2; border-color: #1DA1F2;"> Post </button>
     </div>
 </form>
 </div>

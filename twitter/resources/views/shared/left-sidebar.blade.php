@@ -14,7 +14,7 @@
                     <span>Feed</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/terms">
                     <span>Terms</span></a>
             </li>
             <li class="nav-item">
@@ -28,6 +28,6 @@
         </ul>
     </div>
     <div class="card-footer text-center py-2">
-        <a class="btn btn-link btn-sm" href="#">View Profile </a>
+        <a class="btn btn-link btn-sm" href="#" style="color: #1DA1F2;font-size: 18px; font-weight: bold;">View Profile </a>
     </div>
 </div>

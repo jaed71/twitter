@@ -7,7 +7,7 @@
         <input placeholder="...
     " class="form-control w-100" type="text"
             name="search">
-        <button class="btn btn-dark mt-2"> Search</button>
+        <button class="btn btn-dark mt-2" style="background-color: #1DA1F2; border-color: #1DA1F2;"> Search</button>
         </form>
     </div>
 </div>
